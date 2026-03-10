@@ -35,14 +35,14 @@ function initJeu(){
     plateau[6] = []; // initialiser la premiere ligne
     plateau[7] = []; // initialiser la premiere ligne
 
-    plateau[0][0] = {role : {couleur : "blanc", nom : "Tour"}, isDead : false, x : 0, y : 0}; // A1
-    plateau[0][1] = {role : {couleur : "blanc", nom : "Cavalier"}, isDead : false, x : 1, y : 0}; // B1
-    plateau[0][2] = {role : {couleur : "blanc", nom : "Fou"}, isDead : false, x : 2, y : 0}; // C1
-    plateau[0][3] = {role : {couleur : "blanc", nom : "Reine"}, isDead : false, x : 3, y : 0}; // D1
-    plateau[0][4] = {role : {couleur : "blanc", nom : "Roi"}, isDead : false, x : 4, y : 0}; // E1
-    plateau[0][5] = {role : {couleur : "blanc", nom : "Fou"}, isDead : false, x : 5, y : 0}; // F1
-    plateau[0][6] = {role : {couleur : "blanc", nom : "Cavalier"}, isDead : false, x : 6, y : 0}; // G1
-    plateau[0][7] = {role : {couleur : "blanc", nom : "Tour"}, isDead : false, x : 7, y : 0}; // H1
+    plateau[0][0] = {role : {couleur : "blanc", nom : "Tour"}, isDead : false, x : 0, y : 0};       // A1
+    plateau[0][1] = {role : {couleur : "blanc", nom : "Cavalier"}, isDead : false, x : 1, y : 0};   // B1
+    plateau[0][2] = {role : {couleur : "blanc", nom : "Fou"}, isDead : false, x : 2, y : 0};        // C1
+    plateau[0][3] = {role : {couleur : "blanc", nom : "Reine"}, isDead : false, x : 3, y : 0};      // D1
+    plateau[0][4] = {role : {couleur : "blanc", nom : "Roi"}, isDead : false, x : 4, y : 0};        // E1
+    plateau[0][5] = {role : {couleur : "blanc", nom : "Fou"}, isDead : false, x : 5, y : 0};        // F1
+    plateau[0][6] = {role : {couleur : "blanc", nom : "Cavalier"}, isDead : false, x : 6, y : 0};   // G1
+    plateau[0][7] = {role : {couleur : "blanc", nom : "Tour"}, isDead : false, x : 7, y : 0};       // H1
 
     plateau[1][0] = {role : {couleur : "blanc", nom : "Pion"}, isDead : false, x : 0, y : 1}; // A2
     plateau[1][1] = {role : {couleur : "blanc", nom : "Pion"}, isDead : false, x : 1, y : 1}; // B2
@@ -63,14 +63,14 @@ function initJeu(){
     plateau[6][6] = {role : {couleur : "noir", nom : "Pion"}, isDead : false, x : 6, y : 6}; // G7
     plateau[6][7] = {role : {couleur : "noir", nom : "Pion"}, isDead : false, x : 7, y : 6}; // H7
 
-    plateau[7][0] = {role : {couleur : "noir", nom : "Tour"}, isDead : false, x : 0, y : 7}; // A8
-    plateau[7][1] = {role : {couleur : "noir", nom : "Cavalier"}, isDead : false, x : 1, y : 7}; // B8
-    plateau[7][2] = {role : {couleur : "noir", nom : "Fou"}, isDead : false, x : 2, y : 7}; // C8
-    plateau[7][3] = {role : {couleur : "noir", nom : "Reine"}, isDead : false, x : 3, y : 7}; // D8
-    plateau[7][4] = {role : {couleur : "noir", nom : "Roi"}, isDead : false, x : 4, y : 7}; // E8
-    plateau[7][5] = {role : {couleur : "noir", nom : "Fou"}, isDead : false, x : 5, y : 7}; // F8
-    plateau[7][6] = {role : {couleur : "noir", nom : "Cavalier"}, isDead : false, x : 6, y : 7}; // G8
-    plateau[7][7] = {role : {couleur : "noir", nom : "Tour"}, isDead : false, x : 7, y : 7}; // H8
+    plateau[7][0] = {role : {couleur : "noir", nom : "Tour"}, isDead : false, x : 0, y : 7};        // A8
+    plateau[7][1] = {role : {couleur : "noir", nom : "Cavalier"}, isDead : false, x : 1, y : 7};    // B8
+    plateau[7][2] = {role : {couleur : "noir", nom : "Fou"}, isDead : false, x : 2, y : 7};         // C8
+    plateau[7][3] = {role : {couleur : "noir", nom : "Reine"}, isDead : false, x : 3, y : 7};       // D8
+    plateau[7][4] = {role : {couleur : "noir", nom : "Roi"}, isDead : false, x : 4, y : 7};         // E8
+    plateau[7][5] = {role : {couleur : "noir", nom : "Fou"}, isDead : false, x : 5, y : 7};         // F8
+    plateau[7][6] = {role : {couleur : "noir", nom : "Cavalier"}, isDead : false, x : 6, y : 7};    // G8
+    plateau[7][7] = {role : {couleur : "noir", nom : "Tour"}, isDead : false, x : 7, y : 7};        // H8
 
 
 
