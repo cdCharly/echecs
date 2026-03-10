@@ -48,7 +48,7 @@ type Role = {
 
 
 type Piece = {
-    role : 
+    role : ;
     isDead : boolean;
 };
 
