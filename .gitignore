@@ -1,2 +1,4 @@
-/build/*.*
+# Ignore files in build/ and its subfolders
+/build/**/*.*
+# Allow bin files in build/ and its subfolders
 !/build/**/*.bin
