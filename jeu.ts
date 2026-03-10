@@ -13,6 +13,7 @@ type Piece = {
     y : number;
 };
 // liste de coups sous forme de tableau pour suivre le tab enregistrement partie
+// numero de coup
 
 // enregistrement plateau
 let plateau : Array<Array<Piece>> = []; // echiquier
