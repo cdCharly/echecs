@@ -1,13 +1,12 @@
 "use strict";
-// liste de coups sous forme de tableau pour suivre le tab enregistrement partie
 // enregistrement plateau
-let plateau = []; // echiquier
 function affichePlateau(p) {
     for (let i = 0; i < p.length; i++) {
         console.log(p[i]);
     }
 }
 function initJeu() {
+    let plateau = []; // echiquier
     plateau[0] = []; // initialiser la premiere ligne
     plateau[1] = []; // initialiser la premiere ligne
     plateau[2] = []; // initialiser la premiere ligne
@@ -48,8 +47,28 @@ function initJeu() {
     plateau[7][5] = { role: { couleur: "noir", nom: "Fou" }, isDead: false, x: 5, y: 7 }; // F8
     plateau[7][6] = { role: { couleur: "noir", nom: "Cavalier" }, isDead: false, x: 6, y: 7 }; // G8
     plateau[7][7] = { role: { couleur: "noir", nom: "Tour" }, isDead: false, x: 7, y: 7 }; // H8
+    return plateau;
     //console.log(plateau);
-    affichePlateau(plateau);
+    //affichePlateau(plateau);
 }
-initJeu();
+function afficherCoups(l) {
+    for (let i = 0; i < l.length; i++) {
+        console.log(l[i]);
+    }
+}
+function initPartie(listeCoups) {
+    let coups = listeCoups.split(",");
+    afficherCoups(coups);
+    let echec = { plateau: [] };
+    echec.plateau = initJeu();
+    let partie = { coups: coups, echequier: echec };
+    affichePlateau(echec.plateau);
+    return partie;
+}
+function main() {
+    // init partie
+    let lCoups = "CXe4,Cf6,T3c2";
+    let P = initPartie(lCoups);
+}
+main();
 //# sourceMappingURL=jeu.js.map
